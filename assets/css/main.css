@@ -41,7 +41,6 @@ footer, header, hgroup, menu, nav, section {
 /* Style background image */
 .background-image-div {
 	display: block;
-
 	position: relative;
 	background-color: black;
 }
@@ -2016,7 +2015,6 @@ section ul {
 
 section ul li {
 	list-style: none;
-	background: #eee;
 	margin: 5px;
 	padding: 8px 20px;
 	letter-spacing: 1px;
@@ -2089,8 +2087,8 @@ homepage text {
 			background-color: transparent;
 			border: solid 1px #c9c9c9;
 			border-radius: 4px;
-			width: 2.65em;
-			height: 2.65em;
+			width: 3em;
+			height: 3em;
 			display: inline-block;
 			text-align: center;
 			line-height: 2.65em;
@@ -2098,7 +2096,7 @@ homepage text {
 		}
 
 			.icon.style2:before {
-				font-size: 1.1em;
+				font-size: 2em;
 			}
 
 			.icon.style2:hover {
