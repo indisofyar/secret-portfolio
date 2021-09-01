@@ -38,7 +38,49 @@ footer, header, hgroup, menu, nav, section {
   min-height: 100%;
 	z-index: -2;
 }
+/* Style background image */
+.background-image-div {
+	display: block;
 
+	position: relative;
+	background-color: black;
+}
+
+.background-image {
+	z-index: -1;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	vertical-align: bottom;
+	
+}
+
+.background-image-text {
+	position: absolute;
+	bottom:1.25em;
+	left: 1em;
+	font-size: 2em;
+	color: white;
+	text-shadow: 1px 1px 8px rgba(0,0,0, 0.3);
+	margin: 0;
+}
+
+.background-image-text p, .background-image-text h1{
+	margin: 0;
+}
+
+.text-column {
+  	float: left;
+  	width: 25%;
+	font-size: 0.7em;
+}
+
+@media screen and (max-width:800px){
+	.text-column{
+		width:33%;
+	}
+}
 /*Makes things invisible by default and appear on hover */
 .appear {
 	display: none;
@@ -448,50 +490,7 @@ input, select, textarea {
 		}
 
 
-/* Style background image */
-.background-image-div {
-	display: block;
-	height: 1040px;
-	width: 100%;
-	position: relative;
-	background-color: black;
-}
 
-.background-image {
-	z-index: -1;
-	object-fit: cover;
-	width: 100%;
-	height: 100%;
-	opacity: 0.8;
-	vertical-align: bottom;
-	
-}
-
-.background-image-text {
-	position: absolute;
-	bottom:1.25em;
-	left: 1em;
-	font-size: 2em;
-	color: white;
-	text-shadow: 1px 1px 8px rgba(0,0,0, 0.3);
-	margin: 0;
-}
-
-.background-image-text p, .background-image-text h1{
-	margin: 0;
-}
-
-.text-column {
-  	float: left;
-  	width: 25%;
-	font-size: 0.7em;
-}
-
-@media screen and (max-width:800px){
-	.text-column{
-		width:33%;
-	}
-}
 
 
 /* The different sections available for navigation */
