@@ -2024,9 +2024,6 @@ section ul li.active {
 	color: #fff;
 }
 
-homepage text {
-	color: white;
-}
 
 	header p {
 		margin-top: -1em;
@@ -2612,10 +2609,53 @@ homepage text {
 
 			}
 
+/* Homepage Image and Text Formatting */
+
+/* Clear floats after rows */
+.image-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image-column {
+  	float: left;
+	width: 600px;
+}
+
+.homepage-text{
+
+	position: relative;
+}
+
+.homepage-image{
+	position: relative;
+	bottom: 60px;
+}
+
+@media screen and (max-width:800px){
+	.homepage-text{
+		clear:left;
+		padding-bottom: 10px;
+		width: 100%;
+		text-align: justify;
+		top:0px;
+	}
+	.homepage-image{
+		position: relative;
+		right:55px;
+		bottom: 0px;
+	}
+	.section1{
+		height: 850px!important;
+	}
+}
+
+
 /* Table */
 
 .section1{
-	height: 700px;
+	
 }
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
