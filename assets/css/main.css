@@ -2634,9 +2634,7 @@ section ul li.active {
 }
 
 @media screen and (max-width:800px){
-	.image-column{
-		width: 100%;
-	}
+	
 	.homepage-text{
 		clear:left;
 		padding-bottom: 10px;
