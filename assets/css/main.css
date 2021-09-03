@@ -2549,6 +2549,17 @@ section ul li.active {
 		}
 
 /* Image */
+		.left-adjusted .right-adjusted {
+			max-width: 45%;		
+			object-fit:contain;
+			height: 450px;
+			
+		}
+		@media screen and (max-width:840px){
+			.image.left,.image.right{
+				height: 150px;
+			}
+		}
 
 	.image {
 		border-radius: 4px;
@@ -2564,7 +2575,9 @@ section ul li.active {
 
 		.image.left, .image.right {
 			max-width: 45%;
+
 		}
+
 
 			.image.left img, .image.right img {
 				width: 100%;
