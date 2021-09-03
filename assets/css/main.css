@@ -2622,13 +2622,12 @@ section ul li.active {
 }
 
 .homepage-text{
-
 	position: relative;
+	top: 60px;
 }
 
 .homepage-image{
-	position: relative;
-	bottom: 60px;
+
 }
 
 @media screen and (max-width:800px){
@@ -2642,6 +2641,7 @@ section ul li.active {
 	}
 	.homepage-image{
 		position: relative;
+		top: 0px;
 		bottom: 0px;
 		right: 50px;
 	}
