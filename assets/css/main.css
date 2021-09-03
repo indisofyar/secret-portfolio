@@ -2645,6 +2645,7 @@ section ul li.active {
 	.homepage-image{
 		position: relative;
 		bottom: 0px;
+		right: 50px;
 	}
 	.section1{
 		height: 850px!important;
